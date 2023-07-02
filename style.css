@@ -203,6 +203,7 @@ input[type=submit]:hover
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    padding:10px;
 }
 .introduction
 {
