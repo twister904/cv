@@ -1,0 +1,156 @@
+body
+{
+    background-color: #DFF6FF;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #06283D;
+    margin: 0px;
+}
+h2
+{
+    font-family: 'Slabo 27px', serif;
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    gap:20px;
+
+}
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-between;
+    background-color:#06283D;
+    padding: 5px;
+}
+.navbar a
+{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:small;
+    color:#256D85;
+}
+.navbar button
+{
+    border-radius: 20%;
+    width: 100px;
+    height: 30px;
+}
+.navbar button:hover
+{
+    border-radius: 20%;
+    width: 105px;
+    height: 35px;
+    color:#06283D;
+    background-color:#DFF6FF;
+}
+.cntbtn 
+{
+    background-color: rgb(165, 225, 240);
+}
+.introduction
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.introduction img
+{
+    width: 200px;
+}
+.project
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.projects
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.projects img{
+    height: 200px;
+    width: 400px;
+    border-radius: 10%;
+}
+.projects img:hover{
+    height: 200px;
+    width: 400px;
+    border-radius: 10%;
+    border:2px solid #06283D;
+}
+.aboutme
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+
+}
+.contact
+{
+    color: #DFF6FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #06283D;
+    padding-bottom: 20px;
+}
+.contact img
+{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    background-color:#06283D;
+    border: none;
+    border-bottom:1px solid #DFF6FF;
+}
+textarea
+{
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    background-color:#06283D;
+    border: none;
+    border-bottom:1px solid #DFF6FF;
+}
+input[type=submit]
+{
+    margin: px;
+    width:105px;
+    height: 35px;
+    background-color: #DFF6FF;
+    color: #004280;
+    padding: 10px;
+    border-radius: 15%;
+    font-size:medium;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input[type=submit]:hover
+{
+    width:110px;
+    height: 40px;
+    color: #DFF6FF;
+    background-color: #004280;
+    padding: 10px;
+    border-radius: 15%;
+    font-size:medium;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
