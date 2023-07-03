@@ -146,13 +146,13 @@ input[type=submit]:hover
     .navbar button
     {
         border-radius: 20%;
-        width: 80px;
+        width: 60px;
         height: 25px;
     }
     .navbar button:hover
     {
         border-radius: 20%;
-        width: 80px;
+        width: 60px;
         height: 25px;
         color:#06283D;
         background-color:#DFF6FF;
