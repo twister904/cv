@@ -158,7 +158,7 @@ input[type=submit]:hover
     {
         display: flex;
         flex-wrap: wrap;
-        padding: 2px;
+        padding: 4px;
         justify-content: space-between;
         background-color:#06283D;
         padding: 2px;
